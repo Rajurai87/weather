@@ -50,7 +50,7 @@ const handleChangeInput = (e) =>{
         <h1 className="city">{data.name}</h1>
         <h1 className="report"><i class="fa-solid fa-temperature-three-quarters"></i> {((data.main.temp) - 273.15).toFixed(2)}°C</h1> 
         <div className="additional-report">
-          <p><i class="fa-solid fa-wind"></i> {data.wind.speed} </p>
+          {/* <p><i class="fa-solid fa-wind"></i> {data.wind.speed} </p> */}
         </div>
       </div>
     </>
